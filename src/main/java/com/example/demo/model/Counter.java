@@ -3,6 +3,8 @@ package com.example.demo.model;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
+//hello counter
+
 @Document(collection="counter")
 public class Counter {
 	@Id
