@@ -3,7 +3,11 @@ package com.example.demo.model;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
+<<<<<<< HEAD
 //hello counter 1
+=======
+// hello counter
+>>>>>>> dc94ea8eeab5301951819e90178f99c808460141
 
 @Document(collection="counter")
 public class Counter {
